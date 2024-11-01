@@ -1,0 +1,129 @@
+/* Slick Common CSS */
+.slick-content{
+	width: 350px;
+	display: inline-block;
+	padding: 13px 0px 13px 13px;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	z-index: 100;
+}
+.slick-close{
+	top: 0;
+    right: 5px;
+    line-height: 18px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.slick-close:hover{
+	cursor: pointer;
+}
+.slick-image{
+	display: inline-block;
+    width: 90px;
+}
+.slick-title{
+	float: right;
+    width: 237px;
+}
+.slick-photo{
+	display: inline-block;
+	float: left;
+}
+.slick-desc{
+	float: left;
+	width: 229px;
+	display: inline-block;
+    padding-left: 16px;
+}
+.slick-desc h6{
+	font-size: 16px;
+    font-weight: 100;
+    margin: 0 0 5px;
+    padding: 0 0 6px;
+    border-bottom: 1px solid #ccc;
+}
+.slick-date{
+	background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+/* Slick Position */
+.slick-position-bottom-right{
+	bottom: 60px;
+	right: -350px;
+}
+.slick-position-bottom-left{
+	bottom: 60px;
+	left: -350px;
+}
+.slick-position-top-left{
+	top: 92px;
+	left: -350px;
+}
+.slick-position-top-right{
+	top: 92px;
+	right: -350px;
+}
+
+.slick-top-left{
+	left: 10px;
+}
+.slick-top-right{
+	right: 10px;
+}
+.slick-bottom-right{
+	right: 10px;
+}
+.slick-bottom-left{
+	left: 10px;
+}
+
+
+/* Light Theme */
+.light-slick .slick-content{
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+}
+.light-slick a,
+.light-slick .slick-close{
+	color: #444;
+}
+.light-slick a:hover{
+	color: #000;
+}
+.light-slick .slick-desc h6{
+	color: #444;
+}
+.light-slick .slick-date{
+	color: #9a9a9a;
+}
+.light-slick .slick-date{
+    background-image: url("../img/clock-white.svg");
+}
+
+/* Dark Theme */
+.dark-slick .slick-content{
+	background-color: #2d2d2d;	
+}
+.dark-slick a,
+.dark-slick .slick-close{
+	color: #fff;
+}
+.dark-slick a:hover{
+	color: #f2f2f2;
+}
+.dark-slick .slick-desc h6{
+	color: #fff;
+}
+.dark-slick .slick-date{
+	color: #f2f2f2;
+}
+.dark-slick .slick-date{
+    background-image: url("../img/clock-black.svg");
+}
